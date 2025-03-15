@@ -79,7 +79,40 @@ body {
 
 /* Bottom of page */
 
+.ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-size: 95%;
+}
 
+.box {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 68, 0, 0.637);
+  padding: 20px 100px;
+  border-radius: 4px;
+  gap: 50px;
+}
+
+.box b {
+  background-color: red;
+  padding: 2px;
+}
+
+.box button {
+  background-color: red;
+  flex-shrink: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: darkorange;
+}
 
 /* Misc */
 
@@ -96,7 +129,7 @@ a {
 
 button {
   width: 100px;
-  height: 25px;
+  height: 35px;
   border-radius: 8px;
   background-color: rgb(162, 241, 15);
   border: 0;
